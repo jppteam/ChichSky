@@ -6,6 +6,7 @@ Inspired by [Aeropelago](https://github.com/Astrashh/Aeropelago) and [TerraOverw
 <p align="center" >
 <kbd>Currently in alpha</kbd>
 </p>
+
 ---
 
 ## Implemented `vanilla` biomes
@@ -33,7 +34,4 @@ Inspired by [Aeropelago](https://github.com/Astrashh/Aeropelago) and [TerraOverw
 - [Aeropelago](https://github.com/Astrashh/Aeropelago)
 - [TerraOverworldConfig](https://github.com/PolyhedralDev/TerraOverworldConfig)
 
-bro idk what to put here look at this epic 2+2 is 4 math
-$$
-x = {-b \pm \sqrt{b^2-4ac} \over 2a}
-$$
+bro idk what to put here look at this epic 2+2 is 4 math $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
