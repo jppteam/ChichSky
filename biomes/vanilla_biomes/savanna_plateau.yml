@@ -1,0 +1,20 @@
+id: SAVANNA_PLATEAU
+type: BIOME
+extends: [COLOR_OAK_SAVANNA, TERRAIN]
+vanilla: minecraft:savanna_plateau
+color: $biomes/colors.yml:OAK_SAVANNA
+
+palette:
+  - GRASS_VARIATION: 319
+  - SAND: 64
+  - MUDDY_BEACH: 61
+
+features:
+  flora:
+    - GRASS
+    - POPPY_PATCH
+    - DANDELION_PATCH
+    - PUMPKIN_PATCHES
+  trees:
+    - ACACIA_TREE
+    - WISE_OAK_TREES

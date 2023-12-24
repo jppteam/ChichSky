@@ -1,0 +1,21 @@
+biomes:
+  type: PIPELINE
+  resolution: 2
+  initial-size: 10
+  blend:
+    amplitude: 1.5
+    sampler:
+      type: WHITE_NOISE
+  pipeline:
+    source: $biome-providers/source.yml:source
+    stages: 
+      # Comment line below if you don't want vanilla biomes
+      - << biome-providers/stages/distribute_vanilla_biomes.yml:stages
+
+      - << biome-providers/stages/expand.yml:stages
+      - << biome-providers/stages/smooth.yml:stages
+      - << biome-providers/stages/smooth.yml:stages
+      - << biome-providers/stages/expand.yml:stages
+      - << biome-providers/stages/smooth.yml:stages
+      - << biome-providers/stages/smooth.yml:stages
+      - << biome-providers/stages/smooth.yml:stages

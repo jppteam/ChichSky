@@ -1,0 +1,30 @@
+id: SWAMP
+type: BIOME
+extends: [COLOR_SWAMP, TERRAIN]
+vanilla: minecraft:swamp
+color: $biomes/colors.yml:SWAMP
+
+palette:
+  - BAMBOO_PONDS_WATER: 319
+  - SAND: 60
+
+slant:
+  - threshold: 2
+    palette:
+      - GRASS_MUDDY: 319
+
+slant-depth: 1
+
+features:
+  landforms:
+    - CONTAIN_FLOATING_WATER
+  flora:
+    - POPPY_PATCH
+    - DANDELION_PATCH
+    - BLUE_ORCHID_PATCH
+    - LILY_PADS
+    - SUGAR_CANE
+  trees:
+    - OAK_BUSHES
+    - SWAMP_TREE
+    - DEAD_SWAMP_TREE

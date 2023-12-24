@@ -1,0 +1,11 @@
+id : COLOR_OAK_SAVANNA
+type: BIOME
+abstract: true
+
+colors:
+  sky: 0x9fd3ea
+  fog: 0xc5e4f2
+  grass: 0xdff08d
+  foliage: 0x96d937
+  water: 0x44aff5
+  water-fog: 0x44aff5

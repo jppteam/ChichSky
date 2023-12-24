@@ -1,0 +1,12 @@
+id: COLOR_SWAMP
+type: BIOME
+abstract: true
+
+colors:
+  sky: 0xacd5c3
+  fog: 0xc1dfd2
+  grass: 0x4C763C
+  foliage: 0x6A7039
+  water: 0x4C6559
+  water-fog: 0x232317
+

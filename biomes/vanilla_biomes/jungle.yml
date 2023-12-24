@@ -1,0 +1,30 @@
+id: JUNGLE
+type: BIOME
+extends: [COLOR_JUNGLE, TERRAIN]
+vanilla: minecraft:jungle
+
+palette:
+  - GRASS: 319
+  - GRASS_VARIATION: 62
+  - SAND: 61
+
+features:
+  flora:
+    - GRASS
+    - LARGE_LEAF_VINES
+    - POPPY_PATCH
+    - DANDELION_PATCH
+    - ROSE_BUSH_PATCH
+    - PEONY_PATCH
+    - LILAC_PATCH
+    - LILY_OF_THE_VALLEY_PATCH
+    - SMALL_DRIPLEAF
+    - BIG_DRIPLEAF
+  trees:
+    - JUNGLE_TREES
+    - JUNGLE_BUSHES
+    - POTATO_PATCHES
+    - MELON_PATCHES
+  landforms:
+    - MOSSY_BOULDERS
+    - SMALL_MOSSY_BOULDER_PATCHES

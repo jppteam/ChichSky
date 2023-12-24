@@ -1,0 +1,13 @@
+id: DESERT
+type: BIOME
+extends: TERRAIN
+vanilla: minecraft:desert
+color: $biomes/colors.yml:DESERT
+
+palette:
+  - SAND: 319
+
+features:
+  flora:
+    - COCKTUS
+    - RIP_BUSH

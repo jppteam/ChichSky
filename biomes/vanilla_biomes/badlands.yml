@@ -1,0 +1,16 @@
+id: BADLANDS
+type: BIOME
+extends: TERRAIN
+vanilla: minecraft:badlands
+color: $biomes/colors.yml:BADLANDS_BUTTES
+
+palette:
+  - BADLANDS_STRATA: 319
+
+features:
+  flora:
+    - COCKTUS
+    - GRASS_2
+  trees:
+    - OAK_BUSH_PATCHES
+    - DEAD_TREE

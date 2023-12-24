@@ -1,0 +1,19 @@
+id: CHERRY_GROVE
+type: BIOME
+extends: [COLOR_CHERRY, TERRAIN]
+vanilla: minecraft:cherry_grove
+color: $biomes/colors.yml:SAKURA_MOUNTAINS
+
+palette:
+  - GRASS: 319
+  - SAND: 63
+
+features:
+  flora:
+    - GRASS
+    - PINK_PETALS
+  trees:
+    - SAKURA_TREE
+  landforms:
+    - MOSSY_BOULDERS
+    - SMALL_MOSSY_BOULDER_PATCHES

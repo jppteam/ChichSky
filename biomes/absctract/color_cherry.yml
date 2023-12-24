@@ -1,0 +1,10 @@
+id: COLOR_CHERRY
+type: BIOME
+abstract: true
+
+colors:
+  sky: 0xb3d7f6
+  fog: 0xc6e1f8
+  foliage: 0xffb7c5
+  grass: 0xB6DB61
+  water: 0x5DB7EF

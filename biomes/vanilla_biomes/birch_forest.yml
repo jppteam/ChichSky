@@ -1,0 +1,22 @@
+id: BIRCH_FOREST
+type: BIOME
+extends: [COLOR_BIRCH, TERRAIN]
+vanilla: minecraft:birch_forest
+color: $biomes/colors.yml:BIRCH_FOREST
+
+palette:
+  - GRASS: 319
+  - SAND: 64
+  - MUDDY_BEACH: 61
+
+features:
+  flora:
+    - GRASS
+    - POPPY_PATCH
+    - DANDELION_PATCH
+    - ROSE_BUSH_PATCH
+    - PEONY_PATCH
+    - LILAC_PATCH
+    - LILY_OF_THE_VALLEY_PATCH
+  trees:
+    - BIRCH_TREE

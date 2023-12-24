@@ -1,0 +1,23 @@
+id: SNOWY_TAIGA
+type: BIOME
+extends: [ COLOR_FROZEN, TERRAIN ]
+vanilla: minecraft:snowy_taiga
+
+palette:
+  - GRASS_SNOW_MIX: 319
+  - SAND: 61
+
+features:
+  landforms:
+    - BOULDERS
+    - SMALL_BOULDER_PATCHES
+  flora:
+    - GRASS
+    - SWEET_BERRY_BUSH_PATCHES
+    - FERNS
+  trees:
+    - SPRUCE_TREE
+  slabs:
+    - SNOW_LAYERS
+  postprocessors:
+    - TREE_SNOW

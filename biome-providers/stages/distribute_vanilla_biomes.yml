@@ -1,0 +1,28 @@
+precipitation-map: &precipitation-map
+  dimensions: 2
+  type: CELLULAR
+  return: CellValue
+  frequency: 1 / 400
+
+stages:
+  - type: REPLACE
+    from: vanilla_biomes    
+    to:
+      - PLAINS: 100
+      - BIRCH_FOREST: 100
+      - SUNFLOWER_PLAINS: 5
+      - SAVANNA: 30
+      - SAVANNA_PLATEAU: 15
+      - CHERRY_GROVE: 5
+
+      - DESERT: 30
+      - BADLANDS: 5
+
+      - SNOWY_TAIGA: 30
+      
+      - JUNGLE: 30
+      - BAMBOO_JUNGLE: 15
+
+      - SWAMP: 15
+
+    sampler: *precipitation-map
