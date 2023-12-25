@@ -53,26 +53,27 @@ leopard-sampler: &leopard-sampler
       dimensions: 2
       frequency: 0.002
 
+# https://www.reddit.com/r/Minecraft/comments/j9uco1/minecraft_biome_probabilities_how_much_of_the/
 stages:
   - type: REPLACE
     from: vanilla_biomes    
     to:
-      - PLAINS: 100
-      - BIRCH_FOREST: 100
+      - PLAINS: 830
+      - BIRCH_FOREST: 280
 
-      - SUNFLOWER_PLAINS: 1
-      - CHERRY_GROVE: 1
-      - SAVANNA_PLATEAU: 15
-      - SAVANNA: 30
+      - SUNFLOWER_PLAINS: 65
+      - CHERRY_GROVE: 60
+      - SAVANNA_PLATEAU: 101
+      - SAVANNA: 280
 
-      - BADLANDS: 1
-      - DESERT: 30
+      - BADLANDS: 28
+      - DESERT: 400
 
       - SNOWY_TAIGA: 30
       
-      - BAMBOO_JUNGLE: 10
-      - JUNGLE: 30
+      - BAMBOO_JUNGLE: 15
+      - JUNGLE: 107
 
-      - SWAMP: 10
+      - SWAMP: 400
 
     sampler: *precipitation-map
