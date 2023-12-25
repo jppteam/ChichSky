@@ -1,0 +1,11 @@
+id: FLOWER_FOREST
+type: BIOME
+extends: FOREST
+vanilla: minecraft:flower_forest
+color: $biomes/colors.yml:FLOWERING_FOREST
+
+features:
+  flora:
+    - GRASS
+    - MIXED_FLOWER_COVER
+    - BEETROOT_PATCHES

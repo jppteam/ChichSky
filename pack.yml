@@ -1,5 +1,5 @@
 id: CHICHSKY
-version: 0.0.2
+version: 0.0.3
 author: ubah
 
 addons:
@@ -51,6 +51,9 @@ samplers:
     dimensions: 2
     type: OPEN_SIMPLEX_2
     frequency: 0.01
+  
+  "<<":
+    - math/samplers/simplex.yml:samplers
 
 functions:
   lerp:
@@ -66,8 +69,4 @@ functions:
       if(at<bt,
         if(t<=at,a,if(t>=bt,b,a*(t-bt)/(at-bt)+b*(t-at)/(bt-at))),
         if(t>=at,a,if(t<=bt,b,a*(t-bt)/(at-bt)+b*(t-at)/(bt-at)))
-      )
-
-samplers:
-  "<<":
-    - math/samplers/simplex.yml:samplers
+      )  

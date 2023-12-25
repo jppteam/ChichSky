@@ -1,0 +1,11 @@
+id: COLOR_FOREST
+type: BIOME
+abstract: true
+
+colors:
+  sky: 0xbdc9ff
+  fog: 0xd3dbff
+  grass: 0x60bf4b
+  foliage: 0x80c465
+  water: 0x0677ce
+  water-fog: 0x0677ce

@@ -66,6 +66,7 @@ stages:
       - FOREST: 840
       - DARK_FOREST: 285
       - BIRCH_FOREST: 280
+      - FLOWER_FOREST: 55
       
       - CHERRY_GROVE: 60
       - SAVANNA_PLATEAU: 101

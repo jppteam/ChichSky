@@ -23,7 +23,7 @@ You can customize:
 - `badlands`
 - `cherry_grove`
 - `desert`
-- `forest` (with `birch_forest` and `dark_forest`)
+- `forest` (with `birch_forest`, `dark_forest` and `flower_forest`)
 - `jungle` (with `bamboo_jungle`)
 - `mushroom_fields`
 - `plains` (with `sunflower_plains`, `snowy_plains` and `ice_spikes`)
