@@ -1,0 +1,7 @@
+id: VOID
+type: BIOME
+extends: TERRAIN
+vanilla: minecraft:the_void
+
+palette:
+  - BLOCK:minecraft:air: 319

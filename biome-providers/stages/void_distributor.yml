@@ -1,0 +1,9 @@
+stages:
+  - type: REPLACE
+    from: void    
+    to:
+      - VOID: 1
+
+    sampler:
+      type: EXPRESSION
+      expression: if(y < 64,-1,1)

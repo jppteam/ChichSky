@@ -5,7 +5,7 @@ precipitation-map: &precipitation-map
   return: CellValue
   frequency: 1 / ${customization.yml:biome-distribution.continental-scale} / ${customization.yml:biome-distribution.global-scale}
 
-# Last biome in list fills the rest of map
+# Last biome in list fills the rest of the map
 funny-fbm-sampler: &funny-fbm-sampler
   dimensions: 2
   type: LINEAR
