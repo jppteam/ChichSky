@@ -40,8 +40,8 @@ terrain:
         sampler:
           type: RIDGED
           octaves: 3
-          gain: 1
+          gain: 0.1
           lacunarity: 4
           sampler:
-            type: OPEN_SIMPLEX_2
+            type: OPEN_SIMPLEX_2S
             frequency: 0.001 / ${customization.yml:island-scale}
