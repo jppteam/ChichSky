@@ -1,8 +1,57 @@
+# Best sampler so far
 precipitation-map: &precipitation-map
   dimensions: 2
   type: CELLULAR
   return: CellValue
-  frequency: 1 / 400
+  frequency: 1 / ${customization.yml:biome-distribution.continental-scale} / ${customization.yml:biome-distribution.global-scale}
+
+# Last biome in list fills the rest of map
+funny-fbm-sampler: &funny-fbm-sampler
+  dimensions: 2
+  type: LINEAR
+  min: -1
+  max: -0.65
+  sampler:
+    type: FBM
+    lacunarity: 3
+    gain: 0.4
+    octaves: 4
+    sampler:
+      type: CELLULAR
+      frequency: 0.1 / ${customization.yml:biome-distribution.continental-scale} / ${customization.yml:biome-distribution.global-scale}
+
+# haha leopard
+leopard-sampler: &leopard-sampler
+  dimensions: 2
+  type: EXPRESSION
+  expression:
+    if(noise2(x,z)>simplex(x,z)*0.2,-1,noise(x,z))
+
+  samplers:
+    noise:
+      type: LINEAR
+      dimensions: 2
+      max: 1
+      min: -1
+      sampler:
+        type: CELLULAR
+        dimensions: 2
+        frequency: 0.3 / ${customization.yml:biome-distribution.continental-scale} / ${customization.yml:biome-distribution.global-scale}
+        return: CellValue
+    noise2:
+      type: LINEAR
+      dimensions: 2
+      max: 1
+      min: -2
+      sampler:
+        type: CELLULAR
+        dimensions: 2
+        frequency: 0.3 / ${customization.yml:biome-distribution.continental-scale} / ${customization.yml:biome-distribution.global-scale}
+        return: Distance2Div
+    simplex:
+      type: OPEN_SIMPLEX_2
+      dimensions: 2
+      frequency: 0.002
 
 stages:
   - type: REPLACE
@@ -10,19 +59,20 @@ stages:
     to:
       - PLAINS: 100
       - BIRCH_FOREST: 100
-      - SUNFLOWER_PLAINS: 5
-      - SAVANNA: 30
-      - SAVANNA_PLATEAU: 15
-      - CHERRY_GROVE: 5
 
+      - SUNFLOWER_PLAINS: 1
+      - CHERRY_GROVE: 1
+      - SAVANNA_PLATEAU: 15
+      - SAVANNA: 30
+
+      - BADLANDS: 1
       - DESERT: 30
-      - BADLANDS: 5
 
       - SNOWY_TAIGA: 30
       
+      - BAMBOO_JUNGLE: 10
       - JUNGLE: 30
-      - BAMBOO_JUNGLE: 15
 
-      - SWAMP: 15
+      - SWAMP: 10
 
     sampler: *precipitation-map
