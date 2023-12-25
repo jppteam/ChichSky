@@ -1,0 +1,11 @@
+id: COLOR_MANGROVE
+type: BIOME
+abstract: true
+
+colors:
+  # sky: 0xcdfdfb
+  # fog: 0xdefdfc
+  grass: 0x4C763C
+  foliage: 0x8DB127
+  water: 0x3A7A6A
+  water-fog: 0x4D7A60

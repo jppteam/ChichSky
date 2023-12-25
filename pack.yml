@@ -36,6 +36,9 @@ stages:
   - id: trees
     type: FEATURE
 
+  - id: underwater-flora
+    type: FEATURE
+
   - id: flora
     type: FEATURE
 

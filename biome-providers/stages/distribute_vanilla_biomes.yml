@@ -77,5 +77,6 @@ stages:
       - JUNGLE: 107
 
       - SWAMP: 400
+      - MANGROVE_SWAMP: 90
 
     sampler: *precipitation-map

@@ -1,0 +1,30 @@
+id: MANGROVE_SWAMP
+type: BIOME
+extends: [COLOR_MANGROVE, TERRAIN]
+vanilla: minecraft:mangrove_swamp
+color: $biomes/colors.yml:MANGROVE_SWAMP
+
+palette:
+  - MANGROVE_PONDS_WATER: 319
+  - MUD: 61
+
+slant:
+  - threshold: 5
+    palette:
+      - BLOCK:minecraft:stone: 319
+
+features:
+  landforms:
+    - CONTAIN_FLOATING_WATER
+  underwater-flora:
+    - MANGROVE_SEAGRASS
+  flora:
+    - GRASS
+    - POPPY_PATCH
+    - DANDELION_PATCH
+    - BLUE_ORCHID_PATCH
+    - LILY_PADS
+    - SUGAR_CANE
+    - RIP_BUSH
+  trees:
+    - MANGROVE_TREE

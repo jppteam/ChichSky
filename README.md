@@ -28,7 +28,7 @@ You can customize:
 - `mushroom_fields`
 - `plains` (with `sunflower_plains`)
 - `savanna` (with `savanna_plateau`)
-- `swamp`
+- `swamp` (with `mangrove_swamp`)
 - `taiga` (as `snowy_taiga`)
 
 ## Implemented `modded` biomes
