@@ -1,0 +1,17 @@
+id: SNOWY_PLAINS
+type: BIOME
+extends: [COLOR_FROZEN, TERRAIN]
+vanilla: minecraft:snowy_plains
+color: $biomes/colors.yml:SNOWY_PLAINS
+
+palette:
+  - SNOW: 319
+  - SAND: 61
+
+features:
+  slabs:
+    - SNOW_LAYERS
+  preprocessors:
+    - ICE_COASTLINE
+  postprocessors:
+    - TREE_SNOW

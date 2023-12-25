@@ -26,7 +26,7 @@ You can customize:
 - `desert`
 - `jungle` (with `bamboo_jungle`)
 - `mushroom_fields`
-- `plains` (with `sunflower_plains`)
+- `plains` (with `sunflower_plains`, `snowy_plains` and `ice_spikes`)
 - `savanna` (with `savanna_plateau`)
 - `swamp` (with `mangrove_swamp`)
 - `taiga` (as `snowy_taiga`)

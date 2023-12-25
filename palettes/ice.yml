@@ -1,0 +1,15 @@
+id: ICE
+type: PALETTE
+
+layers:
+  - materials:
+      - minecraft:ice: 1
+      - minecraft:packed_ice: 1
+    layers: 2
+    sampler:
+      type: WHITE_NOISE
+      salt: 5912
+  - materials: minecraft:dirt
+    layers: 1
+  - materials: minecraft:stone
+    layers: 1

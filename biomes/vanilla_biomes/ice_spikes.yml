@@ -1,0 +1,17 @@
+id: ICE_SPIKES
+type: BIOME
+extends: [COLOR_FROZEN, TERRAIN]
+vanilla: minecraft:ice_spikes
+color: $biomes/colors.yml:ICE_SPIKES
+
+palette:
+  - ICE: 319
+  - SAND: 61
+
+features:
+  landforms:
+    - BORDER_ICE
+  trees:
+    - ICE_SPIKES
+  postprocessors:
+    - TREE_SNOW

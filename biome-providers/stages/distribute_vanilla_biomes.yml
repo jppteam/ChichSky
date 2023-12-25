@@ -59,6 +59,7 @@ stages:
     from: vanilla_biomes    
     to:
       - PLAINS: 830
+      - SNOWY_PLAINS: 70
       - SUNFLOWER_PLAINS: 65
       - MUSHROOM_FIELDS: 4
 
@@ -72,6 +73,7 @@ stages:
       - DESERT: 400
 
       - SNOWY_TAIGA: 30
+      - ICE_SPIKES: 5
       
       - BAMBOO_JUNGLE: 15
       - JUNGLE: 107
