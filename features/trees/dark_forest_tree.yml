@@ -1,11 +1,20 @@
-id: LARGE_MUSHROOMS
+id: DARK_FOREST_TREE
 type: FEATURE
 
 distributor:
-  type: PADDED_GRID
-  width: 15
-  padding: 7
-  salt: 2931
+  type: AND
+  distributors:
+    - type: PADDED_GRID
+      width: 6
+      padding: 2
+      salt: 4602
+    - type: SAMPLER
+      sampler:
+        type: PROBABILITY
+        sampler:
+          type: OPEN_SIMPLEX_2
+          salt: 0101
+      threshold: 0.55
 
 locator:
   type: AND
@@ -31,6 +40,7 @@ locator:
 
 structures:
   distribution:
-    type: CONSTANT
-  structures: large_mixed_mushroom_procedural
-  
+    type: WHITE_NOISE
+  structures:
+    - large_dark_oak_tree_procedural: 16
+    - dark_oak_tree_procedural: 6

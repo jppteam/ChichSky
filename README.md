@@ -21,10 +21,9 @@ You can customize:
 ## Implemented `vanilla` biomes
 
 - `badlands`
-- `birch_forest`
 - `cherry_grove`
 - `desert`
-- `forest`
+- `forest` (with `birch_forest` and `dark_forest`)
 - `jungle` (with `bamboo_jungle`)
 - `mushroom_fields`
 - `plains` (with `sunflower_plains`, `snowy_plains` and `ice_spikes`)

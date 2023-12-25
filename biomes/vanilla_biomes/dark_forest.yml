@@ -1,0 +1,20 @@
+id: DARK_FOREST
+type: BIOME
+extends: TERRAIN
+vanilla: minecraft:dark_forest
+color: $biomes/colors.yml:DARK_FOREST
+
+palette:
+  - GRASS: 319
+  - COARSE_DIRT: 62
+  - MUDDY_BEACH: 61
+
+features:
+  flora:
+    - GRASS
+  trees:
+    - LARGE_MUSHROOMS
+    - DARK_FOREST_TREE
+  landforms:
+    - MOSSY_BOULDERS
+    - SMALL_MOSSY_BOULDER_PATCHES
