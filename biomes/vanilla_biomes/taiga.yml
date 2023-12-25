@@ -1,0 +1,26 @@
+id: TAIGA
+type: BIOME
+extends: [COLOR_TAIGA, TERRAIN]
+vanilla: minecraft:taiga
+color: $biomes/colors.yml:TAIGA
+
+palette:
+  - COARSE_WITH_GRASS: 319
+  - SAND: 64
+
+features:
+  trees:
+    - SPRUCE_TREE_PATCHES
+  landforms:
+    - MOSSY_BOULDERS
+    - SMALL_MOSSY_BOULDER_PATCHES
+  flora:
+    - SWEET_BERRY_BUSH_PATCHES
+    - POPPY_PATCH
+    - DANDELION_PATCH
+    - ROSE_BUSH_PATCH
+    - PEONY_PATCH
+    - LILAC_PATCH
+    - LILY_OF_THE_VALLEY_PATCH
+    - GRASS
+    - FERNS

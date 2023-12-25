@@ -75,6 +75,7 @@ stages:
       - BADLANDS: 28
       - DESERT: 400
 
+      - TAIGA: 380
       - SNOWY_TAIGA: 30
       - ICE_SPIKES: 5
       

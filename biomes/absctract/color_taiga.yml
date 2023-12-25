@@ -1,0 +1,12 @@
+id: COLOR_TAIGA
+type: BIOME
+abstract: true
+
+colors:
+  sky: 0xc4d3ef
+  fog: 0xd8e2f4
+  grass: 0x86b783
+  foliage: 0x68a464
+  water: 0x287082
+  water-fog: 0x287082
+
