@@ -13,7 +13,7 @@ features:
   flora:
     - GRASS
   trees:
-    - LARGE_MUSHROOMS
+    - VANILLA_DARK_MUSHROOMS
     - DARK_FOREST_TREE
   landforms:
     - MOSSY_BOULDERS
