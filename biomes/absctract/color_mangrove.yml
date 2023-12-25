@@ -3,8 +3,8 @@ type: BIOME
 abstract: true
 
 colors:
-  # sky: 0xcdfdfb
-  # fog: 0xdefdfc
+  sky: 0xacd5c3
+  fog: 0xc1dfd2
   grass: 0x4C763C
   foliage: 0x8DB127
   water: 0x3A7A6A
