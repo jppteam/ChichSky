@@ -63,6 +63,7 @@ stages:
       - SUNFLOWER_PLAINS: 65
       - MUSHROOM_FIELDS: 4
 
+      - FOREST: 840
       - BIRCH_FOREST: 280
       
       - CHERRY_GROVE: 60
@@ -79,6 +80,6 @@ stages:
       - JUNGLE: 107
 
       - SWAMP: 400
-      - MANGROVE_SWAMP: 90
+      - MANGROVE_SWAMP: 90      
 
     sampler: *precipitation-map

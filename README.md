@@ -24,6 +24,7 @@ You can customize:
 - `birch_forest`
 - `cherry_grove`
 - `desert`
+- `forest`
 - `jungle` (with `bamboo_jungle`)
 - `mushroom_fields`
 - `plains` (with `sunflower_plains`, `snowy_plains` and `ice_spikes`)
