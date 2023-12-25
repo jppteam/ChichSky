@@ -9,6 +9,15 @@ Inspired by [Aeropelago](https://github.com/Astrashh/Aeropelago) and [TerraOverw
 
 ---
 
+## Customization
+
+You can customize:
+
+- Island settings (`island-*` values in [`customization.yml`](customization.yml) file)
+- Scale of biomes (`biome-distribution` part in [`customization.yml`](customization.yml) file)
+- Biomes colors (`color_*` files in [`biomes/abstract`](biomes/abstract/) folder)
+- Enabling/disabling vanilla biomes in [`distribute_vanilla_biomes.yml`](biome-providers/stages/distribute_vanilla_biomes.yml) file
+
 ## Implemented `vanilla` biomes
 
 - `badlands`
@@ -16,13 +25,10 @@ Inspired by [Aeropelago](https://github.com/Astrashh/Aeropelago) and [TerraOverw
 - `cherry_grove`
 - `desert`
 - `jungle` (with `bamboo_jungle`)
-- `plains`
+- `plains` (with `sunflower_plains`)
 - `savanna` (with `savanna_plateau`)
-- `sunflower_plains`
 - `swamp`
 - `taiga` (as `snowy_taiga`)
-
-> You can disable biomes in [`distribute_vanilla_biomes.yml`](biome-providers/stages/distribute_vanilla_biomes.yml) file
 
 ## Implemented `modded` biomes
 
