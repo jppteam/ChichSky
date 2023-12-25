@@ -59,9 +59,11 @@ stages:
     from: vanilla_biomes    
     to:
       - PLAINS: 830
-      - BIRCH_FOREST: 280
-
       - SUNFLOWER_PLAINS: 65
+      - MUSHROOM_FIELDS: 4
+
+      - BIRCH_FOREST: 280
+      
       - CHERRY_GROVE: 60
       - SAVANNA_PLATEAU: 101
       - SAVANNA: 280

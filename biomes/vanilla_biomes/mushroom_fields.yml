@@ -1,0 +1,15 @@
+id: MUSHROOM_FIELDS
+type: BIOME
+extends: TERRAIN
+vanilla: minecraft:mushroom_fields
+color: $biomes/colors.yml:MUSHROOM_FIELDS
+
+palette:
+  - MYCELIUM: 319
+  - SAND: 62
+
+features:
+  trees:
+    - VANILLA_MUSHROOMS
+  flora:
+    - SMALL_MUSHROOMS

@@ -25,6 +25,7 @@ You can customize:
 - `cherry_grove`
 - `desert`
 - `jungle` (with `bamboo_jungle`)
+- `mushroom_fields`
 - `plains` (with `sunflower_plains`)
 - `savanna` (with `savanna_plateau`)
 - `swamp`
