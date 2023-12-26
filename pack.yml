@@ -1,5 +1,5 @@
 id: CHICHSKY
-version: 0.0.4
+version: 0.1.0
 author: ubah
 
 addons:
@@ -12,12 +12,15 @@ addons:
   config-feature: 0.1.+
   config-distributors: 0.1.+
   config-locators: 0.1.+
+  config-structure: "1.+"
   structure-block-shortcut: "1.+"
   structure-terrascript-loader: "1.+"
   generation-stage-feature: "1.+"
   biome-provider-pipeline-v2: "1.+"
   structure-function-check-noise-3d: "1.+"
   terrascript-function-sampler: "1.+"
+  command-structures: "1.+"
+  structure-sponge-loader: "1.+"
 
 generator: NOISE_3D
 
