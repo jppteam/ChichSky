@@ -16,3 +16,5 @@ features:
   underwater-flora:
     - KELP
     - SEAGRASS
+  fauna:
+    - FISH_ENTITY
