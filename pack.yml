@@ -45,6 +45,9 @@ stages:
   - id: flora
     type: FEATURE
 
+  - id: fauna
+    type: FEATURE
+
   - id: postprocessors
     type: FEATURE
 
