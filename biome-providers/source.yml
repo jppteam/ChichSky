@@ -2,8 +2,10 @@ source:
   type: SAMPLER
   biomes:
     # Comment line below if you don't want vanilla biomes
-    - vanilla_biomes: 2
-    - void: 1
+    - vanilla_biomes: 5
+    - void: 5
+    # Comment line below if you don't want custom biomes
+    - custom_biomes: 1
   
   sampler:
     dimensions: 2

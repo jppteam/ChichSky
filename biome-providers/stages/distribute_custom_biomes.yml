@@ -1,0 +1,13 @@
+precipitation-map: &precipitation-map
+  dimensions: 2
+  type: CELLULAR
+  return: CellValue
+  frequency: 1 / ${customization.yml:biome-distribution.continental-scale} / (${customization.yml:biome-distribution.global-scale} * 4)
+
+stages:
+  - type: REPLACE
+    from: custom_biomes
+    to:
+      - OBSIDIAN_PEAKS: 1
+
+    sampler: *precipitation-map

@@ -11,6 +11,8 @@ biomes:
     stages: 
       # Comment line below if you don't want vanilla biomes
       - << biome-providers/stages/distribute_vanilla_biomes.yml:stages
+      # Comment line below if you don't want custom biomes
+      - << biome-providers/stages/distribute_custom_biomes.yml:stages
       - << biome-providers/stages/void_distributor.yml:stages
 
       - << biome-providers/stages/expand.yml:stages
