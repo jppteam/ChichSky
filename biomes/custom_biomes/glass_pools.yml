@@ -1,0 +1,18 @@
+id: GLASS_POOLS
+type: BIOME
+extends: [TERRAIN, COLOR_OCEAN]
+vanilla: minecraft:ocean
+color: $biomes/colors.yml:OCEAN
+
+ocean:
+  level: 125
+
+palette:
+  - GLASS_POOL_SAND: 319
+
+features:
+  landforms:
+    - CONTAIN_OCEAN_WATER
+  underwater-flora:
+    - KELP
+    - SEAGRASS

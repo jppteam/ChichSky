@@ -11,6 +11,7 @@ aquatic-plantable-blocks:
   - minecraft:mud
   - minecraft:sand
   - minecraft:gravel
+  - minecraft:glass
 
 sugarcane-plantable-blocks:
   - minecraft:mud

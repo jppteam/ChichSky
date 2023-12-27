@@ -9,5 +9,6 @@ stages:
     from: custom_biomes
     to:
       - OBSIDIAN_PEAKS: 1
+      - GLASS_POOLS: 3
 
     sampler: *precipitation-map
