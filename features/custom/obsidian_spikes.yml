@@ -1,0 +1,47 @@
+id: OBSIDIAN_SPIKES
+type: FEATURE
+
+distributor:
+  type: SAMPLER
+  sampler:
+    type: POSITIVE_WHITE_NOISE
+    salt: 13845
+  threshold: 0.15
+
+locator:
+  type: AND
+  locators:
+    - type: TOP
+      range: &range
+        min: 32
+        max: 255
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks:
+          - minecraft:obsidian
+        offset: -1
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks:
+          - minecraft:snow
+          - minecraft:air
+        offset: 0
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks:
+          - minecraft:lava
+        offset: -2
+
+
+structures:
+  distribution:
+    type: CONSTANT
+  structures:
+    - obsidian_spike: 1
+  

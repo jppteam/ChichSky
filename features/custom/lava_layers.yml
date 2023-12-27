@@ -1,0 +1,6 @@
+id: LAVA_LAYERS
+type: FEATURE
+extends: SLABS
+
+structures:
+  structures: lava_layers

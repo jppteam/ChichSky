@@ -1,0 +1,13 @@
+id: OBSIDIAN_DEPTHS
+type: PALETTE
+
+layers:
+  - materials:
+    - minecraft:obsidian: 1
+    layers: 1
+  - materials:
+    - minecraft:lava: 1
+    layers: 2
+  - materials:
+    - minecraft:obsidian: 1
+    layers: 1

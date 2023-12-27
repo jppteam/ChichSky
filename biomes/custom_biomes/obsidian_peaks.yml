@@ -1,0 +1,14 @@
+id: OBSIDIAN_PEAKS
+type: BIOME
+extends: [TERRAIN, COLOR_OBSIDIAN]
+vanilla: minecraft:the_void
+color: $biomes/colors.yml:DEEP_DARK
+
+palette:
+  - OBSIDIAN_DEPTHS: 319
+
+features:
+  trees:
+    - OBSIDIAN_SPIKES
+  slabs:
+    - LAVA_LAYERS

@@ -1,0 +1,10 @@
+str blockBelow = getBlock(0, -1, 0);
+if (blockBelow != "minecraft:obsidian") {
+    fail;
+}
+
+num placeLava = randomInt(6);
+
+if (placeLava == 0) {
+    block(0, 0, 0, "minecraft:lava");
+}

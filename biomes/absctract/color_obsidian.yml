@@ -1,0 +1,7 @@
+id: COLOR_OBSIDIAN
+type: BIOME
+abstract: true
+
+colors:
+  sky: 0x778d9d
+  fog: 0xe7ba88
