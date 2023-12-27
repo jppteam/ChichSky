@@ -1,3 +1,36 @@
+sampler: &default
+    dimensions: 2
+    type: EXPRESSION
+    expression:
+      if(noise2(x,z)>simplex(x,z)*0.2,-1,noise(x,z))
+
+    samplers:
+      noise:
+        type: LINEAR
+        dimensions: 2
+        max: 1
+        min: -1
+        sampler:
+          type: CELLULAR
+          dimensions: 2
+          frequency: 0.2 / ${customization.yml:biome-distribution.continental-scale} / ${customization.yml:biome-distribution.global-scale}
+          return: CellValue
+      noise2:
+        type: LINEAR
+        dimensions: 2
+        max: 1
+        min: -2
+        sampler:
+          type: CELLULAR
+          dimensions: 2
+          frequency: 0.2 / ${customization.yml:biome-distribution.continental-scale} / ${customization.yml:biome-distribution.global-scale}
+          return: Distance2Div
+      simplex:
+        type: OPEN_SIMPLEX_2
+        dimensions: 2
+        frequency: 0.002
+
+
 # Best sampler so far
 precipitation-map: &precipitation-map
   dimensions: 2
@@ -85,4 +118,4 @@ stages:
       - SWAMP: 400
       - MANGROVE_SWAMP: 90      
 
-    sampler: *precipitation-map
+    sampler: *default

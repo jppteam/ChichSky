@@ -1,7 +1,12 @@
 id: VOID
 type: BIOME
-extends: TERRAIN
 vanilla: minecraft:the_void
+
+terrain:
+  sampler:
+    type: EXPRESSION
+    expression:
+      -0.5- (|y-64|/200)
 
 palette:
   - BLOCK:minecraft:air: 319

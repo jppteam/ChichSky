@@ -3,7 +3,7 @@ source:
   biomes:
     # Comment line below if you don't want vanilla biomes
     - vanilla_biomes: 5
-    - void: 5
+    - void: 3
     # Comment line below if you don't want custom biomes
     - custom_biomes: 1
   
