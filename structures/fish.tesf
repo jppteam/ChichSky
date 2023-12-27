@@ -1,1 +1,34 @@
-fail;
+num random = randomInt(5);
+
+if (random == 0) {
+	entity(0,0,0,"minecraft:tropical_fish");
+}
+
+if (random == 1) {
+	entity(0,0,0,"minecraft:cod");
+}
+
+if (random == 2) {
+	entity(0,0,0,"minecraft:salmon");
+}
+
+if (random == 3) {
+	entity(0,0,0,"minecraft:squid");
+}
+
+if (random == 4) {
+	num randomPart2 = randomInt(4);
+
+	if (randomPart2 == 0) {
+		entity(0,0,0,"minecraft:pufferfish");
+	}
+
+	if (randomPart2 == 1) {
+		entity(0,0,0,"minecraft:dolphin");
+	}
+
+	if (randomPart2 == 3) {
+		entity(0,0,0,"minecraft:pig");
+	}
+}
+
