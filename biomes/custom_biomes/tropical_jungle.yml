@@ -1,0 +1,26 @@
+id: TROPICAL_JUNGLE
+type: BIOME
+extends: [COLOR_TROPICAL_JUNGLE, TERRAIN, JUNGLE]
+vanilla: minecraft:jungle
+color: 0xB4EC4E
+
+features:
+  flora:
+    - GRASS
+    - LARGE_LEAF_VINES
+    - POPPY_PATCH
+    - DANDELION_PATCH
+    - ROSE_BUSH_PATCH
+    - PEONY_PATCH
+    - LILAC_PATCH
+    - LILY_OF_THE_VALLEY_PATCH
+    - SMALL_DRIPLEAF
+    - BIG_DRIPLEAF
+  trees:
+    - JUNGLE_TREES
+    - JUNGLE_BUSHES_PATCHES
+    - POTATO_PATCHES
+    - MELON_PATCHES
+  landforms:
+    - MOSSY_BOULDERS
+    - SMALL_MOSSY_BOULDER_PATCHES

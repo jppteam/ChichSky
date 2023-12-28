@@ -27,6 +27,7 @@ You can customize:
 - `birch_taiga`
 - `glass_pools`
 - `obsidian_peaks`
+- `tropical_jungle`
 
 ## Implemented `vanilla` biomes
 

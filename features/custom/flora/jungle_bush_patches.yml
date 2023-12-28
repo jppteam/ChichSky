@@ -1,0 +1,19 @@
+id: JUNGLE_BUSHES_PATCHES
+type: FEATURE
+extends: JUNGLE_BUSHES
+
+distributor:
+  type: AND
+  distributors:
+    - type: PADDED_GRID
+      width: 4
+      padding: 3
+      salt: 3615
+    - type: SAMPLER
+      sampler:
+        type: PROBABILITY
+        sampler:
+          type: OPEN_SIMPLEX_2
+          frequency: 0.1
+          salt: 3333
+      threshold: 0.6

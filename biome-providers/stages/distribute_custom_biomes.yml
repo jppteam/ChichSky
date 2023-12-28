@@ -40,5 +40,6 @@ stages:
       - ASH_SAVANNA_PLAINS: 1 # "Very rare"
       - BIRCH_TAIGA: 5 # "Rare"
       - BUSHLAND: 20 # Common
+      - TROPICAL_JUNGLE: 5 # "Rare"
 
     sampler: *default
