@@ -1,6 +1,6 @@
 id: COLOR_MOONLIGHT_VALLEY
 type: BIOME
-abstract: trueq
+abstract: true
 
 colors:
   fog: 0xC0D8FF

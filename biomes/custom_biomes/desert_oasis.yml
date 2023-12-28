@@ -1,7 +1,7 @@
 id: DESERT_OASIS
 type: BIOME
 extends: [TERRAIN, COLOR_DESERT_OASIS, DESERT]
-vanilla: minecraft:desert
+vanilla: minecraft:ocean
 color: 0x4EB338
 
 palette:

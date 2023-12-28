@@ -7,8 +7,8 @@ distributor:
     - type: SAMPLER
       sampler:
         type: POSITIVE_WHITE_NOISE
-        salt: 3743
-      threshold: 0.4
+        salt: 1253
+      threshold: 0.5
     - type: SAMPLER
       sampler:
         type: PROBABILITY
@@ -19,8 +19,8 @@ distributor:
             type: GAUSSIAN
           sampler:
             type: OPEN_SIMPLEX_2
-            salt: 5643
-      threshold: 0.4
+            salt: 12656
+      threshold: 0.5
 
 locator:
   type: AND
@@ -49,8 +49,8 @@ structures:
       frequency: 0.06
       seed: 9231
   structures:
-    - BLOCK:minecraft:dead_tube_coral: 4
-    - BLOCK:minecraft:dead_brain_coral: 3
-    - BLOCK:minecraft:dead_bubble_coral: 5
-    - BLOCK:minecraft:dead_fire_coral: 3
-    - BLOCK:minecraft:dead_horn_coral: 4
+    - dead_tube_coral: 4
+    - dead_brain_coral: 3
+    - dead_bubble_coral: 5
+    - dead_fire_coral: 3
+    - dead_horn_coral: 4

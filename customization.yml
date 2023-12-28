@@ -1,10 +1,10 @@
 island-scale: 0.1
 island-max-height: 250
-island-min-height: -32
-island-undercarriage-translate: -30
+island-min-height: -64
+island-undercarriage-translate: -60
 island-flatness: 2
 island-taper: 125
-island-threshold: 0.3
+island-threshold: 0.28
 
 biome-distribution:
   # scale of land / coastal / oceanic distribution (bruh all biomes is continental)

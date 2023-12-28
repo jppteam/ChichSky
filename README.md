@@ -26,15 +26,15 @@ You can customize:
 - `bushland`
 - `birch_taiga`
 - `cloud_forest`
-- `desert_oasis` (not tested)
+- `desert_oasis`
 - `forested_highlands`
 - `glass_pools` (community biome)
-- `gravel_desert` (not tested)
+- `gravel_desert`
 - `hot_springs`
 - `moonlight_valley`
 - `obsidian_peaks` (community biome)
 - `tropical_jungle`
-- `warped_mesa` (not tested)
+- `warped_mesa`
 - `white_cliffs`
 
 ## Implemented `vanilla` biomes

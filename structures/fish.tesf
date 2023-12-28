@@ -1,4 +1,4 @@
-num random = randomInt(5);
+num random = randomInt(6);
 
 if (random == 0) {
 	entity(0,0,0,"minecraft:tropical_fish");
@@ -17,6 +17,10 @@ if (random == 3) {
 }
 
 if (random == 4) {
+	entity(0,0,0,"minecraft:axolotl");
+}
+
+if (random == 5) {
 	num randomPart2 = randomInt(4);
 
 	if (randomPart2 == 0) {
