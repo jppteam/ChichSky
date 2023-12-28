@@ -1,0 +1,11 @@
+id: COLOR_AMETHYST
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xC0D8FF
+  foliage: 0xC8A7FF
+  grass: 0x70D484
+  sky: 0xCEC6FF
+  water: 0x43D5EE
+  water-fog: 0x050533
