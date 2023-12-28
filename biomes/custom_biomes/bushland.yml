@@ -1,0 +1,14 @@
+id: BUSHLAND
+type: BIOME
+extends: [TERRAIN, COLOR_BUSHLAND, FOREST]
+vanilla: minecraft:forest
+color: $biomes/colors.yml:FOREST
+
+features:
+  trees:
+    - MANY_OAK_BUSH_PATCHES
+  flora:
+    - GRASS
+    - POPPY_PATCH
+    - DANDELION_PATCH
+    - RIP_BUSH

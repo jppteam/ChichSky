@@ -1,0 +1,11 @@
+id: COLOR_BUSHLAND
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xCDE6FF
+  # foliage: 0xC8A7FF
+  # grass: 0x70D484
+  sky: 0xB1D1FF
+  water: 0x3F76E4
+  water-fog: 0x050533

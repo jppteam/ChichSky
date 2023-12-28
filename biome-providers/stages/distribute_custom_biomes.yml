@@ -39,5 +39,6 @@ stages:
       - AMETHYST_HILLS: 1 # "Very rare"
       - ASH_SAVANNA_PLAINS: 1 # "Very rare"
       - BIRCH_TAIGA: 5 # "Rare"
+      - BUSHLAND: 20 # Common
 
     sampler: *default
