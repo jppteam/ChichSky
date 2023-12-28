@@ -1,0 +1,22 @@
+id: BIRCH_TAIGA
+type: BIOME
+extends: [TERRAIN, TAIGA, COLOR_BIRCH_TAIGA]
+vanilla: minecraft:taiga
+color: 0x8DC876
+
+features:
+  trees:
+    - BIRCH_TREE_PATCHES
+  landforms:
+    - MOSSY_BOULDERS
+    - SMALL_MOSSY_BOULDER_PATCHES
+  flora:
+    - SWEET_BERRY_BUSH_PATCHES
+    - POPPY_PATCH
+    - DANDELION_PATCH
+    - ROSE_BUSH_PATCH
+    - PEONY_PATCH
+    - LILAC_PATCH
+    - LILY_OF_THE_VALLEY_PATCH
+    - GRASS
+    - FERNS

@@ -38,5 +38,6 @@ stages:
       - GLASS_POOLS: 3
       - AMETHYST_HILLS: 1 # "Very rare"
       - ASH_SAVANNA_PLAINS: 1 # "Very rare"
+      - BIRCH_TAIGA: 5 # "Rare"
 
     sampler: *default

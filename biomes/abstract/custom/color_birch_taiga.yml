@@ -1,0 +1,11 @@
+id: COLOR_BIRCH_TAIGA
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xC0D8FF
+  foliage: 0xF3B437
+  grass: 0x8DC876
+  sky: 0x7DA2FF
+  water: 0x3F76E4
+  water-fog: 0x050533
