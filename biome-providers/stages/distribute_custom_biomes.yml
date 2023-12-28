@@ -54,5 +54,6 @@ stages:
       - LAVENDER_VALLEY: 5 # "Rare"
       - ICE_MARSH: 5 # "Rare"
       - GLACIAL_CHASM: 1 # "Very rare"
+      - BLOOMING_VALLEY: 5 # "Rare"
 
     sampler: *default

@@ -1,0 +1,14 @@
+id: BLOOMING_VALLEY
+type: BIOME
+extends: [TERRAIN, COLOR_BLOOMING_VALLEY, FOREST]
+vanilla: minecraft:forest
+color: $biomes/colors.yml:FOREST
+
+features:
+  trees:
+    - RAREST_BIRCH_TREE
+    - AZALIED_OAK_TREES
+  flora:
+    - MIXED_TULIP_COVER
+    - MIXED_FLOWER_COVER
+    - GRASS

@@ -25,6 +25,7 @@ You can customize:
 - `ash_savanna_plains`
 - `bushland`
 - `birch_taiga`
+- `blooming_valley`
 - `cloud_forest`
 - `desert_oasis`
 - `forested_highlands`
