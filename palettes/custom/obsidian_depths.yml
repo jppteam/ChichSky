@@ -7,7 +7,7 @@ layers:
     layers: 1
   - materials:
     - minecraft:lava: 1
-    layers: 2
+    layers: 1
   - materials:
     - minecraft:obsidian: 1
     layers: 1
