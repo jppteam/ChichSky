@@ -1,0 +1,11 @@
+id: GRAVEL_DESERT
+type: BIOME
+extends: [TERRAIN, COLOR_GRAVEL_DESERT, DESERT]
+vanilla: minecraft:desert
+
+palette:
+  - GRAVEL: 319
+
+features:
+  flora:
+    - DEAD_CORAL_MIX

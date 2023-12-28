@@ -46,5 +46,6 @@ stages:
       - SHIELD: 10 # "Uncommon"
       - FORESTED_HIGHLANDS: 20 # "Common"
       - CLOUD_FOREST: 1 # "Very rare"
+      - GRAVEL_DESERT: 10 # "Uncommon"
 
     sampler: *default

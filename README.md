@@ -28,6 +28,7 @@ You can customize:
 - `cloud_forest`
 - `forested_highlands`
 - `glass_pools` (community biome)
+- `gravel_desert` (not tested)
 - `hot_springs`
 - `obsidian_peaks` (community biome)
 - `tropical_jungle`

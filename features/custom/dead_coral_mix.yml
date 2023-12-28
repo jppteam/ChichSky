@@ -1,0 +1,56 @@
+id: DEAD_CORAL_MIX
+type: FEATURE
+
+distributor:
+  type: AND
+  distributors:
+    - type: SAMPLER
+      sampler:
+        type: POSITIVE_WHITE_NOISE
+        salt: 3743
+      threshold: 0.4
+    - type: SAMPLER
+      sampler:
+        type: PROBABILITY
+        sampler:
+          type: DOMAIN_WARP
+          amplitude: 5
+          warp:
+            type: GAUSSIAN
+          sampler:
+            type: OPEN_SIMPLEX_2
+            salt: 5643
+      threshold: 0.4
+
+locator:
+  type: AND
+  locators:
+    - type: SURFACE
+      range: &range
+        min: 32
+        max: 255
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks: 
+          - minecraft:gravel
+        offset: -1
+
+structures:
+  distribution:
+    type: DOMAIN_WARP
+    amplitude: 4
+    warp:
+      type: GAUSSIAN
+    sampler:
+      type: CELLULAR
+      return: CellValue
+      frequency: 0.06
+      seed: 9231
+  structures:
+    - BLOCK:minecraft:dead_tube_coral: 4
+    - BLOCK:minecraft:dead_brain_coral: 3
+    - BLOCK:minecraft:dead_bubble_coral: 5
+    - BLOCK:minecraft:dead_fire_coral: 3
+    - BLOCK:minecraft:dead_horn_coral: 4
