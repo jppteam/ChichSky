@@ -1,0 +1,54 @@
+id: AMETHYST_BUDS_PATCHES
+type: FEATURE
+
+distributor:
+  type: AND
+  distributors:
+    - type: SAMPLER
+      sampler:
+        type: POSITIVE_WHITE_NOISE
+        salt: 9823
+      threshold: 0.2
+    - type: SAMPLER
+      sampler:
+        type: PROBABILITY
+        sampler:
+          type: DOMAIN_WARP
+          amplitude: 5
+          warp:
+            type: GAUSSIAN
+          sampler:
+            type: OPEN_SIMPLEX_2
+            salt: 4982
+      threshold: 0.2
+
+locator:
+  type: AND
+  locators:
+    - type: SURFACE
+      range: &range
+        min: 32
+        max: 255
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks: $features/flora/meta.yml:plantable-blocks
+        offset: -1
+
+structures:
+  distribution:
+    type: DOMAIN_WARP
+    amplitude: 4
+    warp:
+      type: GAUSSIAN
+    sampler:
+      type: CELLULAR
+      return: CellValue
+      frequency: 0.06
+      seed: 9231
+  structures:
+    - BLOCK:minecraft:small_amethyst_bud: 3
+    - BLOCK:minecraft:medium_amethyst_bud: 2
+    - BLOCK:minecraft:large_amethyst_bud: 1
+   

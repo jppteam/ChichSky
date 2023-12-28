@@ -1,0 +1,11 @@
+id: COLOR_MOONLIGHT_VALLEY
+type: BIOME
+abstract: trueq
+
+colors:
+  fog: 0xC0D8FF
+  foliage: 0x7CC895
+  grass: 0x9EB2E1
+  sky: 0x79A6FF
+  water: 0x92B2E1
+  water-fog: 0x050533

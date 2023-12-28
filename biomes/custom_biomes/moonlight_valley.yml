@@ -1,0 +1,16 @@
+id: MOONLIGHT_VALLEY
+type: BIOME
+extends: [TERRAIN, COLOR_MOONLIGHT_VALLEY, FOREST]
+vanilla: minecraft:forest
+color: 0x9EB2E1
+
+features:
+  trees:
+    - TALL_ACACIA_TREE
+    - TALL_STRIPPED_SPRUCE_TREE
+  flora:
+    - BLUE_ORCHID_PATCH
+    - CORNFLOWER_PATCH
+    - AMETHYST_BUDS_PATCHES
+    - WARPED_ROOT_PATCH
+    - GRASS

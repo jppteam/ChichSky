@@ -49,5 +49,6 @@ stages:
       - GRAVEL_DESERT: 10 # "Uncommon"
       - DESERT_OASIS: 5 # "Rare"
       - WARPED_MESA: 1 # "Very rare"
+      - MOONLIGHT_VALLEY: 10 # "Uncommon"
 
     sampler: *default

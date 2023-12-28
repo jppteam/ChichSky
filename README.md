@@ -31,6 +31,7 @@ You can customize:
 - `glass_pools` (community biome)
 - `gravel_desert` (not tested)
 - `hot_springs`
+- `moonlight_valley`
 - `obsidian_peaks` (community biome)
 - `tropical_jungle`
 - `warped_mesa` (not tested)
