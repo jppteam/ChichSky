@@ -52,5 +52,6 @@ stages:
       - MOONLIGHT_VALLEY: 10 # "Uncommon"
       - SAKURA_VALLEY: 1 # "Very rare"
       - LAVENDER_VALLEY: 5 # "Rare"
+      - ICE_MARSH: 5 # "Rare"
 
     sampler: *default

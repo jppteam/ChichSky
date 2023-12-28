@@ -1,0 +1,12 @@
+id: COLOR_ICE_MARSH
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xA2ABA8
+  foliage: 0x9E814D
+  grass: 0x6A8053
+  sky: 0xA1BCB1
+  water: 0x617B72
+  water-fog: 0x232317
+  

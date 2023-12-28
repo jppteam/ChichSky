@@ -1,5 +1,5 @@
 str blockBelow = getBlock(0, -1, 0);
-if (blockBelow != "minecraft:grass_block[snowy=true]" &&
+if (blockBelow != "minecraft:grass_block" &&
     blockBelow != "minecraft:snow_block") {
     fail;
 }

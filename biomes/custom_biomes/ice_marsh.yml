@@ -1,0 +1,20 @@
+id: ICE_MARSH
+type: BIOME
+extends: [TERRAIN, COLOR_ICE_MARSH, SWAMP]
+vanilla: minecraft:frozen_river
+color: 0x9E814D
+
+features:
+  landforms:
+    - CONTAIN_FLOATING_WATER
+  flora:
+    - BLUE_ORCHID_PATCH
+    - LILY_PADS
+    - SUGAR_CANE
+  trees:
+    - ACACIED_OAK_TREE
+    - OAK_BUSHES
+  slabs:
+    - SNOW_LAYERS
+  postprocessors:
+    - TREE_SNOW

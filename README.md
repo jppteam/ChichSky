@@ -31,6 +31,7 @@ You can customize:
 - `glass_pools` (community biome)
 - `gravel_desert`
 - `hot_springs`
+- `ice_marsh`
 - `lavender_valley`
 - `moonlight_valley`
 - `obsidian_peaks` (community biome)
