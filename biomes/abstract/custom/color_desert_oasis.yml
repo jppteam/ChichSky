@@ -1,0 +1,11 @@
+id: COLOR_DESERT_OASIS
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xCDE6FF
+  foliage: 0x4EB338
+  grass: 0x77B338
+  sky: 0xB1D1FF
+  water: 0x45BE90
+  water-fog: 0x050533

@@ -47,5 +47,6 @@ stages:
       - FORESTED_HIGHLANDS: 20 # "Common"
       - CLOUD_FOREST: 1 # "Very rare"
       - GRAVEL_DESERT: 10 # "Uncommon"
+      - DESERT_OASIS: 5 # "Rare"
 
     sampler: *default

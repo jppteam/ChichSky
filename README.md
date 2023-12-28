@@ -26,6 +26,7 @@ You can customize:
 - `bushland`
 - `birch_taiga`
 - `cloud_forest`
+- `desert_oasis` (not tested)
 - `forested_highlands`
 - `glass_pools` (community biome)
 - `gravel_desert` (not tested)

@@ -1,0 +1,20 @@
+id: DESERT_OASIS
+type: BIOME
+extends: [TERRAIN, COLOR_DESERT_OASIS, DESERT]
+vanilla: minecraft:desert
+color: 0x4EB338
+
+palette:
+  - OASIS_PONDS_WATER: 319
+
+features:
+  landforms:
+    - CONTAIN_OASIS_WATER
+  fauna:
+    - FISH_ENTITY
+  flora:
+    - SMALL_DRIPLEAF
+    - LILY_PADS
+    - SUGAR_CANE
+    - RIP_BUSH
+    - ACACIED_JUNGLE_AZALEA
