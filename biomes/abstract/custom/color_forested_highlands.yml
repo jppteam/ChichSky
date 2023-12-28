@@ -1,0 +1,11 @@
+id: COLOR_FORESTED_HIGHLANDS
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xC0D8FF
+  foliage: 0xEC5448
+  # grass: 0x89DD4E
+  sky: 0x78A7FF
+  water: 0x3F76E4
+  water-fog: 0x050533

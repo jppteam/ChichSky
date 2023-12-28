@@ -44,5 +44,6 @@ stages:
       - HOT_SPRINGS: 1 # "Very rare"
       - WHITE_CLIFFS: 1 # "Very rare"
       - SHIELD: 10 # "Uncommon"
+      - FORESTED_HIGHLANDS: 20 # "Common"
 
     sampler: *default

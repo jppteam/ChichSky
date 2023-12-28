@@ -1,0 +1,18 @@
+id: FORESTED_HIGHLANDS
+type: BIOME
+extends: [TERRAIN, COLOR_FORESTED_HIGHLANDS, FOREST]
+vanilla: minecraft:forest
+color: 0xEC5448
+
+palette:
+  - STONY_GRASS: 319
+
+features:
+  flora:
+    - GRASS
+    - FERNS
+    - RED_TULIPS
+    - ROSE_BUSH_PATCH
+  trees:
+    - SPRUCE_TREE
+    - DARK_SPRUCE_TREE
