@@ -1,13 +1,22 @@
-# ChichSky
+<div align='center'>
+	<img src='CHICHSKY.png' alt="ChichSky logo"/>
+</div>
 
-Skyland config pack for [Terra](https://modrinth.com/plugin/terra) - world generation modding platform.
-Inspired by [Aeropelago](https://github.com/Astrashh/Aeropelago) and [TerraOverworldConfig](https://github.com/PolyhedralDev/TerraOverworldConfig) (and 95% of the original code taken from them).
+**ChichSky** is Skyland config pack for [Terra](https://modrinth.com/plugin/terra) - world generation modding platform.
+Inspired by [Aeropelago](https://github.com/Astrashh/Aeropelago) and [TerraOverworldConfig](https://github.com/PolyhedralDev/TerraOverworldConfig) (and 85% of the original code taken from them).
 
 <p align="center" >
-<kbd>Currently in alpha</kbd>
+<kbd>Currently in beta</kbd>
 </p>
 
 ---
+
+## Installation
+
+0. Download and install [Terra](https://modrinth.com/plugin/terra) for your platform
+1. Download this repo
+2. Unarchive it in your `/config/Terra/packs/` (for modded) or `/plugins/Terra/packs/` (for bukkit) folder
+3. Now you can use the `generator.terra.chichsky/chichsky` world type in your client/server
 
 ## Customization
 

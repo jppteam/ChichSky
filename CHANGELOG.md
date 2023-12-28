@@ -12,4 +12,9 @@
 - changed all biomes distribution
 - add fis
 
+## 0.2.0
+
+- implemented tons of custom biomes
+- updated biome distribution
+
 uh i forgor
