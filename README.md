@@ -17,6 +17,13 @@ You can customize:
 - Scale of biomes (`biome-distribution` part in [`customization.yml`](customization.yml) file)
 - Biomes colors (`color_*` files in [`biomes/abstract`](biomes/abstract/) folder)
 - Enabling/disabling vanilla biomes in [`distribute_vanilla_biomes.yml`](biome-providers/stages/distribute_vanilla_biomes.yml) file
+- Enabling/disabling custin biomes in [`distribute_custom_biomes.yml`](biome-providers/stages/distribute_custom_biomes.yml) file
+
+## Implemented `custom` biomes
+
+- `amethyst_hills`
+- `glass_pools`
+- `obsidian_peaks`
 
 ## Implemented `vanilla` biomes
 
@@ -30,10 +37,6 @@ You can customize:
 - `savanna` (with `savanna_plateau`)
 - `swamp` (with `mangrove_swamp`)
 - `taiga` (as `snowy_taiga`)
-
-## Implemented `modded` biomes
-
-- none yet
 
 ## Credits
 

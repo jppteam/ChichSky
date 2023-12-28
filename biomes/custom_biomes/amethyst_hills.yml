@@ -1,0 +1,20 @@
+id: AMETHYST_HILLS
+type: BIOME
+vanilla: minecraft:jungle
+extends: [COLOR_AMETHYST, TERRAIN]
+color: 0xC8A7FF
+
+palette:
+  - GRASS_CALCITE: 319
+
+features:
+  landforms:
+    - BOULDERS
+  flora:
+    - GRASS
+    - FERNS
+  trees:
+    - JUNGLE_BUSHES
+    - MELON_PATCHES
+    - ACACIED_AZALEA
+    - JUNGLED_AZALEA
