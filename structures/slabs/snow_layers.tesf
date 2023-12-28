@@ -1,6 +1,9 @@
 str blockBelow = getBlock(0, -1, 0);
 if (blockBelow != "minecraft:grass_block" &&
-    blockBelow != "minecraft:snow_block") {
+    blockBelow != "minecraft:snow_block" &&
+    blockBelow != "minecraft:ice" &&
+    blockBelow != "minecraft:packed_ice" &&
+    blockBelow != "minecraft:blue_ice") {
     fail;
 }
 

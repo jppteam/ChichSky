@@ -28,6 +28,7 @@ You can customize:
 - `cloud_forest`
 - `desert_oasis`
 - `forested_highlands`
+- `glacial_chasm`
 - `glass_pools` (community biome)
 - `gravel_desert`
 - `hot_springs`

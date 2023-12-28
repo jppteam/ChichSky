@@ -1,0 +1,11 @@
+id: COLOR_GLACIAL_CHASM
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xC0D8FF
+  # foliage: 0x448BE4
+  # grass: 0xBEAFDD
+  sky: 0x78A7FF
+  water: 0x3F76E4
+  water-fog: 0x050533

@@ -1,0 +1,12 @@
+id: GLACIAL_CHASM
+type: BIOME
+extends: [TERRAIN, COLOR_GLACIAL_CHASM]
+vanilla: minecraft:frozen_ocean
+color: 0xC0D8FF
+
+palette:
+  - ICE_2: 319
+
+features:
+  landforms:
+    - SNOW_LAYERS
