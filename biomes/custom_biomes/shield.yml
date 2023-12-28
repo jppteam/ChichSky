@@ -7,7 +7,7 @@ color: 0xF3B437
 features:
   trees:
     - SPRUCE_TREE
-    - BIRCH_TREE
+    - RAREST_BIRCH_TREE
     - TALL_OAK_TREE
   flora:
     - GRASS
