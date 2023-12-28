@@ -1,0 +1,14 @@
+id: HOT_SPRING
+type: PALETTE
+
+layers:
+  - materials:
+      - minecraft:water: 1
+    layers: 1
+  - materials:
+      - minecraft:cobbled_deepslate: 1
+      - minecraft:magma_block: 1
+    sampler:
+      type: WHITE_NOISE
+      salt: 5182
+    layers: 2

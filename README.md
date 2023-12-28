@@ -26,6 +26,7 @@ You can customize:
 - `bushland`
 - `birch_taiga`
 - `glass_pools`
+- `hot_springs`
 - `obsidian_peaks`
 - `tropical_jungle`
 

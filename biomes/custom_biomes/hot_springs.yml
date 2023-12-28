@@ -1,0 +1,12 @@
+id: HOT_SPRINGS
+type: BIOME
+extends: [COLOR_HOT_SPRINGS, TERRAIN]
+vanilla: minecraft:deep_ocean
+color: 0x77E0F7
+
+palette:
+  - HOT_SPRING: 319
+
+features:
+  landforms:
+    - CONTAIN_HOT_WATER

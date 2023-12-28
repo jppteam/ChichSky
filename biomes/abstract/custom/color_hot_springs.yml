@@ -1,0 +1,11 @@
+id: COLOR_HOT_SPRINGS
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xE0E9FF
+  # foliage: 0xB4EC4E
+  grass: 0xC6D097
+  sky: 0x77A8FF
+  water: 0x77E0F7
+  water-fog: 0x050533
