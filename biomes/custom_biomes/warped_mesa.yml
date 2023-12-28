@@ -1,0 +1,8 @@
+id: WARPED_MESA
+type: BIOME
+extends: [TERRAIN, COLOR_WARPED_MESA, BADLANDS]
+vanilla: minecraft:badlands
+color: 0xBEAFDD
+
+palette:
+  - WARPED_BADLANDS_STRATA: 319

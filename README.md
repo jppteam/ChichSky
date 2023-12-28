@@ -33,6 +33,7 @@ You can customize:
 - `hot_springs`
 - `obsidian_peaks` (community biome)
 - `tropical_jungle`
+- `warped_mesa` (not tested)
 - `white_cliffs`
 
 ## Implemented `vanilla` biomes

@@ -1,0 +1,11 @@
+id: COLOR_WARPED_MESA
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xCCB6ED
+  foliage: 0x448BE4
+  grass: 0xBEAFDD
+  sky: 0xC0A8FF
+  water: 0x9883D5
+  water-fog: 0x050533
