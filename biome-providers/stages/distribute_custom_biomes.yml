@@ -37,5 +37,6 @@ stages:
       - OBSIDIAN_PEAKS: 1
       - GLASS_POOLS: 3
       - AMETHYST_HILLS: 1 # "Very rare"
+      - ASH_SAVANNA_PLAINS: 1 # "Very rare"
 
     sampler: *default

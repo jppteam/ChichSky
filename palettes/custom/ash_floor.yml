@@ -1,0 +1,18 @@
+id: ASH_FLOOR
+type: PALETTE
+
+layers:
+  - materials:
+      - minecraft:basalt: 20
+      - minecraft:smooth_basalt: 20
+      - minecraft:blackstone: 20
+      - minecraft:dirt: 15
+      - minecraft:grass_block: 15
+      - minecraft:coarse_dirt: 15
+    sampler:
+      type: WHITE_NOISE
+      salt: 7562
+    layers: 1
+  - materials:
+      - minecraft:stone: 1
+    layers: 1

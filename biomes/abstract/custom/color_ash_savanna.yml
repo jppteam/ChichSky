@@ -1,0 +1,11 @@
+id: COLOR_ASH_SAVANNA
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xCDE6FF
+  foliage: 0xC2C0A9
+  grass: 0xC0BBAC
+  sky: 0xB1D1FF
+  water: 0x3F76E4
+  water-fog: 0x050533

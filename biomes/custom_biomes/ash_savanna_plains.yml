@@ -1,0 +1,14 @@
+id: ASH_SAVANNA_PLAINS
+type: BIOME
+extends: [COLOR_ASH_SAVANNA, TERRAIN, SAVANNA]
+vanilla: minecraft:savanna
+
+palette:
+  - ASH_FLOOR: 319
+
+features:
+  flora:
+    - GRASS
+    - FERNS
+  trees:
+    - DEAD_ACACIA

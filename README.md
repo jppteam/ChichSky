@@ -22,6 +22,7 @@ You can customize:
 ## Implemented `custom` biomes
 
 - `amethyst_hills`
+- `ash_savanna_plains`
 - `glass_pools`
 - `obsidian_peaks`
 
