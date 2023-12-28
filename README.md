@@ -23,6 +23,8 @@ You can customize:
 
 - `amethyst_hills`
 - `ash_savanna_plains`
+- `bushland`
+- `birch_taiga`
 - `glass_pools`
 - `obsidian_peaks`
 
