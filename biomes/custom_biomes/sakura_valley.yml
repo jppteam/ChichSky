@@ -1,0 +1,19 @@
+id: SAKURA_VALLEY
+type: BIOME
+extends: [TERRAIN, COLOR_SAKURA_VALLEY, CHERRY_GROVE]
+
+palette:
+  - GRASS_PODZOL: 319
+
+features:
+  trees:
+    - SAKURA_TREE
+    - SAKURED_DARK_OAK_TREE
+    - ACACIED_BIRCH
+    - SAKURA_BUSH
+  flora:
+    - BAMBOO_PATCHES
+    - ALLIUM_PATCH
+    - MIXED_TULIP_COVER
+    - GRASS
+    - PINK_PETALS

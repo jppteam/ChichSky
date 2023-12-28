@@ -1,0 +1,11 @@
+id: COLOR_SAKURA_VALLEY
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xD2EBFF
+  foliage: 0xFFCCDB
+  grass: 0x79CF85
+  sky: 0xA5C5FF
+  water: 0x4BB7CF
+  water-fog: 0x050533

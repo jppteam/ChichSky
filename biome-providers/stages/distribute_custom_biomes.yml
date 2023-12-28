@@ -50,5 +50,6 @@ stages:
       - DESERT_OASIS: 5 # "Rare"
       - WARPED_MESA: 1 # "Very rare"
       - MOONLIGHT_VALLEY: 10 # "Uncommon"
+      - SAKURA_VALLEY: 1 # "Very rare"
 
     sampler: *default

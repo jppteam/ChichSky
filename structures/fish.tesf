@@ -16,9 +16,9 @@ if (random == 3) {
 	entity(0,0,0,"minecraft:squid");
 }
 
-if (random == 4) {
-	entity(0,0,0,"minecraft:axolotl");
-}
+// if (random == 4) {
+//	entity(0,0,0,"minecraft:axolotl");
+// }
 
 if (random == 5) {
 	num randomPart2 = randomInt(4);

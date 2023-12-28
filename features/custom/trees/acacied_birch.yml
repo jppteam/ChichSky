@@ -1,0 +1,38 @@
+id: ACACIED_BIRCH
+type: FEATURE
+
+distributor:
+  type: SAMPLER
+  sampler:
+    type: POSITIVE_WHITE_NOISE
+    salt: 3248
+  threshold: 0.007
+
+locator:
+  type: AND
+  locators:
+    - type: TOP
+      range: &range
+        min: 32
+        max: 255
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks: $features/flora/meta.yml:plantable-blocks
+        offset: -1
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks:
+          - minecraft:snow
+          - minecraft:air
+        offset: 0
+
+structures:
+  distribution:
+    type: WHITE_NOISE
+    salt: 3290
+  structures:
+    - acacied_birch: 1
