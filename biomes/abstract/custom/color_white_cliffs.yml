@@ -1,0 +1,11 @@
+id: COLOR_WHITE_CLIFFS
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xC0D8FF
+  # foliage: 0xB4EC4E
+  # grass: 0x89DD4E
+  sky: 0x7DA2FF
+  water: 0x3F76E4
+  water-fog: 0x050533

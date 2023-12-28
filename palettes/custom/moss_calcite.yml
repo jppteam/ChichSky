@@ -1,0 +1,21 @@
+id: MOSS_CALCITE
+type: PALETTE
+
+layers:
+  - materials:
+      - minecraft:moss_block: 1  
+    layers: 1
+  - materials:
+      - minecraft:calcite: 2
+      - minecraft:diorite: 1
+    sampler:
+      type: WHITE_NOISE
+      salt: 1253
+    layers: 1
+  - materials:
+      - minecraft:calcite: 1
+      - minecraft:diorite: 2
+    sampler:
+      type: WHITE_NOISE
+      salt: 3845
+    layers: 1

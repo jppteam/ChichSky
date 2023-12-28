@@ -25,10 +25,11 @@ You can customize:
 - `ash_savanna_plains`
 - `bushland`
 - `birch_taiga`
-- `glass_pools`
+- `glass_pools` (community biome)
 - `hot_springs`
-- `obsidian_peaks`
+- `obsidian_peaks` (community biome)
 - `tropical_jungle`
+- `white_cliffs`
 
 ## Implemented `vanilla` biomes
 

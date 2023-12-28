@@ -1,0 +1,15 @@
+id: WHITE_CLIFFS
+type: BIOME
+extends: [COLOR_WHITE_CLIFFS, TERRAIN, BIRCH_FOREST]
+vanilla: minecraft:birch_forest
+color: 0xC0D8FF
+
+palette:
+  - MOSS_CALCITE: 319
+
+features:
+  flora:
+    - GRASS
+  trees:
+    - BIRCH_TREE
+    - OAK_BUSH_PATCHES
