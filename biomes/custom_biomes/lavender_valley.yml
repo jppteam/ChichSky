@@ -1,0 +1,13 @@
+id: LAVENDER_VALLEY
+type: BIOME
+extends: [TERRAIN, COLOR_LAVENDER_VALLEY, FOREST]
+vanilla: minecraft:forest
+color: 0xC8B7FF
+
+features:
+  trees:
+    - ACACIED_DARK_OAK_TREE
+    - RAREST_BIRCH_TREE
+  flora:
+    - MIXED_TULIP_COVER
+    - GRASS

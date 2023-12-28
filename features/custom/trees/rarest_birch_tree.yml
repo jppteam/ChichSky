@@ -1,0 +1,26 @@
+id: RAREST_BIRCH_TREE
+type: FEATURE
+extends: BIRCH_TREE
+
+distributor:
+  type: AND
+  distributors:
+    - type: PADDED_GRID
+      width: 6
+      padding: 2
+      salt: 4538
+    - type: SAMPLER
+      sampler:
+        type: PROBABILITY
+        sampler:
+          type: OPEN_SIMPLEX_2
+          frequency: 0.06
+          salt: 1423
+      threshold: 0.3
+
+structures:
+  distribution:
+    type: WHITE_NOISE
+    salt: 5011
+  structures:
+    - birch_tree_procedural: 20

@@ -1,0 +1,11 @@
+id: COLOR_LAVENDER_VALLEY
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xC0D8FF
+  foliage: 0xC8B7FF
+  grass: 0x9BE0BC
+  sky: 0x79A6FF
+  water: 0x87B2F4
+  water-fog: 0x050533
