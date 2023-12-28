@@ -1,0 +1,11 @@
+id: COLOR_CLOUD_FOREST
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xA5B0BD
+  foliage: 0xA5C29C
+  grass: 0x5C9A70
+  sky: 0xD7D8E1
+  water: 0x27A4D7
+  water-fog: 0x050533

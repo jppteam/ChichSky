@@ -25,6 +25,8 @@ You can customize:
 - `ash_savanna_plains`
 - `bushland`
 - `birch_taiga`
+- `cloud_forest`
+- `forested_highlands`
 - `glass_pools` (community biome)
 - `hot_springs`
 - `obsidian_peaks` (community biome)

@@ -1,0 +1,14 @@
+id: CLOUD_FOREST
+type: BIOME
+extends: [TERRAIN, COLOR_CLOUD_FOREST, FOREST]
+vanilla: minecraft:forest
+color: 0xA5C29C
+
+features:
+  flora:
+    - FERNS
+    - LILY_OF_THE_VALLEY_PATCH
+    - AZURE_BLUETS_PATCH
+  trees:
+    - ACACIED_SPRUCE
+    - BIRCH_TREE

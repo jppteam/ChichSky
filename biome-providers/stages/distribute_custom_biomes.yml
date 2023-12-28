@@ -45,5 +45,6 @@ stages:
       - WHITE_CLIFFS: 1 # "Very rare"
       - SHIELD: 10 # "Uncommon"
       - FORESTED_HIGHLANDS: 20 # "Common"
+      - CLOUD_FOREST: 1 # "Very rare"
 
     sampler: *default
