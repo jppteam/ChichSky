@@ -1,0 +1,11 @@
+id: COLOR_SHIELD
+type: BIOME
+abstract: true
+
+colors:
+  fog: 0xD7D8E1
+  foliage: 0xF3B437
+  grass: 0x70A57B
+  sky: 0xA5B0BD
+  water: 0x617B90
+  water-fog: 0x232317

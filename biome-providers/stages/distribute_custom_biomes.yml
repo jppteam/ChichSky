@@ -43,5 +43,6 @@ stages:
       - TROPICAL_JUNGLE: 5 # "Rare"
       - HOT_SPRINGS: 1 # "Very rare"
       - WHITE_CLIFFS: 1 # "Very rare"
+      - SHIELD: 10 # "Uncommon"
 
     sampler: *default

@@ -1,0 +1,16 @@
+id: SHIELD
+type: BIOME
+extends: [TERRAIN, COLOR_SHIELD, TAIGA]
+vanilla: minecraft:taiga
+color: 0xF3B437
+
+features:
+  trees:
+    - SPRUCE_TREE
+    - BIRCH_TREE
+    - TALL_OAK_TREE
+  flora:
+    - GRASS
+    - FERNS
+    - SWEET_BERRY_BUSH_PATCHES
+  
